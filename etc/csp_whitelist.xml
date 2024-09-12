@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="font-src">
+            <values>
+                <value id="globalpay.com" type="host">*.globalpay.com</value>
+                <value id="fonts.gstatic.com" type="host">https://fonts.gstatic.com</value>
+            </values>
+        </policy>
+        <policy id="frame-src">
+            <values>
+                <value id="americanexpress.com" type="host">*.americanexpress.com</value>
+                <value id="globalpay.com" type="host">*.globalpay.com</value>
+                <value id="mastercard.com" type="host">*.mastercard.com</value>
+                <value id="visa.com" type="host">*.visa.com</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <value id="globalpay.com" type="host">*.globalpay.com</value>
+            </values>
+        </policy>
+        <policy id="script-src">
+            <values>
+                <value id="aexp-static.com" type="host">*.aexp-static.com</value>
+                <value id="ajax.aspnetcdn.com" type="host">https://ajax.aspnetcdn.com</value>
+                <value id="globalpay.com" type="host">*.globalpay.com</value>
+                <value id="gpapiservices.com" type="host">*.gpapiservices.com</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="fonts.googleapis.com" type="host">https://fonts.googleapis.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>
