@@ -1,6 +1,6 @@
 {
-    "name": "realexpayments/module-payment-gateway",
-    "description": "Demonstrates integration with payment gateway",
+    "name": "cool-studio/globalpayments-magento2",
+    "description": "Demonstrates integration with payment gateway from GlobalPayments, modified for PHP8.3",
     "require": {
         "php": "~8.1.0||~8.2.0||~8.3.0",
         "magento/framework": "103.0.*",
