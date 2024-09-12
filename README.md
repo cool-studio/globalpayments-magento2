@@ -1,3 +1,6 @@
+## Cool Studio Modification
+After a conversation with GlobalPayments, they did not have a timeline for supporting PHP8.3, but claimed that it should work just fine, even though you can't install it becasue of the dependency check in Composer.
+
 ## Synopsis
 An extension to add integration with Payment Gateway.
 This payment method can be restricted to work only with specific Shipping method.
